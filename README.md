@@ -4,7 +4,7 @@
 
 This project is designed to analyze trucking data to enhance safety, efficiency, and compliance within the fleet using PySpark, Databricks, and AWS technologies.
 
-Key functionalities include:
+**Key functionalities include**:
 
 - **Data Ingestion and Storage**: Raw trucking data, such as mileage, gas usage, geolocation, events, and driver specifics, are stored in AWS S3 in CSV format.
 
