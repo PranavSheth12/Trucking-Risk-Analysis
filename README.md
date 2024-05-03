@@ -2,7 +2,8 @@
 
 Functionalities
 
-This project is designed to analyze trucking data to enhance safety, efficiency, and compliance within the fleet using PySpark, Databricks, and AWS technologies. Key functionalities include:
+This project is designed to analyze trucking data to enhance safety, efficiency, and compliance within the fleet using PySpark, Databricks, and AWS technologies. 
+Key functionalities include:
 
 Data Ingestion and Storage: Raw trucking data, such as mileage, gas usage, geolocation, events, and driver specifics, are stored in AWS S3 in CSV format.
 Data Processing and Transformation: Utilizing Databricks for Spark session management to transform and analyze the trucking data effectively.
@@ -18,14 +19,18 @@ Deployment Instructions
 
 Environment Setup:
 Clone the GitHub repository to your local machine using: git clone https://github.com/PranavSheth12/Trucking-Risk-Analysis.git
+
 Set up an AWS account and configure access to an S3 bucket.
 Create a Databricks workspace and deploy a cluster.
+
 Data Setup:
 Upload the structured CSV data files to your configured S3 bucket.
+
 Project Execution:
 Open the Databricks workspace and import the notebook from the cloned repository.
 Attach the notebook to your cluster and configure the Spark session to access the S3 data.
 Execute the notebook to perform data transformations, analysis, and visualizations.
+
 Steps to Run the Application
 
 Ensure AWS credentials are set up for accessing S3.
